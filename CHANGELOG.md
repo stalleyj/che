@@ -1,5 +1,40 @@
 # Change Log
 
+## [7.0.0-rc-3.0](https://github.com/eclipse/che/tree/7.0.0-rc-3.0) (2019-07-05)
+[Full Changelog](https://github.com/eclipse/che/compare/7.0.0-RC-1.1...7.0.0-rc-3.0)
+
+**Merged pull requests:**
+
+- RELEASE: Set next development version [\#13711](https://github.com/eclipse/che/pull/13711) ([vparfonov](https://github.com/vparfonov))
+- Revert "Fix handling of error status of a workspace " [\#13699](https://github.com/eclipse/che/pull/13699) ([akurinnoy](https://github.com/akurinnoy))
+- \[E2E\] Change export logic [\#13697](https://github.com/eclipse/che/pull/13697) ([Katka92](https://github.com/Katka92))
+- Set default Che Theia vesrsion to 7.0.0-rc-3.0 [\#13696](https://github.com/eclipse/che/pull/13696) ([vparfonov](https://github.com/vparfonov))
+- Updating codeowners for Che 7 endgame code reviews [\#13684](https://github.com/eclipse/che/pull/13684) ([l0rd](https://github.com/l0rd))
+- \[Selenium\] Adapt selenium tests from ocpoauth package [\#13663](https://github.com/eclipse/che/pull/13663) ([SkorikSergey](https://github.com/SkorikSergey))
+- Set version 7.0.0-rc-3.0-SNAPSHOT \(rc in lowercase\) [\#13655](https://github.com/eclipse/che/pull/13655) ([vparfonov](https://github.com/vparfonov))
+- Remove Docker CLI and images parts of the CLI [\#13652](https://github.com/eclipse/che/pull/13652) ([benoitf](https://github.com/benoitf))
+- Set new version 7.0.0-RC-3.0-SNAPSHOT [\#13651](https://github.com/eclipse/che/pull/13651) ([vparfonov](https://github.com/vparfonov))
+- Workspace termination time metrics [\#13635](https://github.com/eclipse/che/pull/13635) ([sparkoo](https://github.com/sparkoo))
+- \[TS-SELENIUM\] Cover the "Use Java IDE features and the inner loop" step from "Happy path" scenario [\#13615](https://github.com/eclipse/che/pull/13615) ([Ohrimenko1988](https://github.com/Ohrimenko1988))
+- Deploy legacy variable only for che6 workspaces [\#13612](https://github.com/eclipse/che/pull/13612) ([skabashnyuk](https://github.com/skabashnyuk))
+- Fix the deployment failure with default `values.yaml`. [\#13598](https://github.com/eclipse/che/pull/13598) ([monaka](https://github.com/monaka))
+- Support mountSources for K8S/OS components in devfile [\#13595](https://github.com/eclipse/che/pull/13595) ([mshaposhnik](https://github.com/mshaposhnik))
+- Selenium: Update the E2E selenium tests according to the changes on dashboard [\#13589](https://github.com/eclipse/che/pull/13589) ([artaleks9](https://github.com/artaleks9))
+- Deprecate workspaces with Devfile stored as workspace config [\#13588](https://github.com/eclipse/che/pull/13588) ([mkuznyetsov](https://github.com/mkuznyetsov))
+- Fix editor version in Che Devfile [\#13572](https://github.com/eclipse/che/pull/13572) ([mkuznyetsov](https://github.com/mkuznyetsov))
+- Upgrade dashboard dependencies [\#13571](https://github.com/eclipse/che/pull/13571) ([evidolob](https://github.com/evidolob))
+- Add dockerfile to execute E2E Che 7 typescript tests. [\#13542](https://github.com/eclipse/che/pull/13542) ([Katka92](https://github.com/Katka92))
+- Apply TS formatter and linter to workspace-loader [\#13532](https://github.com/eclipse/che/pull/13532) ([akurinnoy](https://github.com/akurinnoy))
+
+## [7.0.0-RC-1.1](https://github.com/eclipse/che/tree/7.0.0-RC-1.1) (2019-06-19)
+[Full Changelog](https://github.com/eclipse/che/compare/7.0.0-RC-2.0...7.0.0-RC-1.1)
+
+**Merged pull requests:**
+
+- Make Che Plugin Broker use self-signed certificate [\#13565](https://github.com/eclipse/che/pull/13565) ([sleshchenko](https://github.com/sleshchenko))
+- RELEASE: Set next development version [\#13564](https://github.com/eclipse/che/pull/13564) ([vparfonov](https://github.com/vparfonov))
+
+
 ## [7.0.0-beta-5.0](https://github.com/eclipse/che/tree/7.0.0-beta-5.0) (2019-05-22)
 [Full Changelog](https://github.com/eclipse/che/compare/7.0.0-beta-4.0...7.0.0-beta-5.0)
 
