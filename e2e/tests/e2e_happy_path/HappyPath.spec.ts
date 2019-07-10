@@ -36,11 +36,11 @@ const terminal: Terminal = e2eContainer.get(CLASSES.Terminal);
 const debugView: DebugView = e2eContainer.get(CLASSES.DebugView);
 const warningDialog: WarningDialog = e2eContainer.get(CLASSES.WarningDialog);
 
-const projectName: string = 'petclinic';
+const projectName: string = 'spring-petclinic';
 const namespace: string = TestConstants.TS_SELENIUM_USERNAME;
 const workspaceName: string = TestConstants.TS_SELENIUM_HAPPY_PATH_WORKSPACE_NAME;
 const workspaceUrl: string = `${TestConstants.TS_SELENIUM_BASE_URL}/dashboard/#/ide/${namespace}/${workspaceName}`;
-const pathToJavaFolder: string = `${projectName}/src/main/java/org/springframework/samples/petclinic`;
+const pathToJavaFolder: string = `${projectName}/src/main/java/org/springframework/samples/spring-petclinic`;
 const pathToChangedJavaFileFolder: string = `${projectName}/src/main/java/org/springframework/samples/petclinic/system`;
 const javaFileName: string = 'PetClinicApplication.java';
 const changedJavaFileName: string = 'CrashController.java';
