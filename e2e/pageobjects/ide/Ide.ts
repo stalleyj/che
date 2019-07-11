@@ -47,7 +47,12 @@ export class Ide {
 
     async waitNotificationAndConfirm(notificationText: string, timeout: number = TestConstants.TS_SELENIUM_DEFAULT_TIMEOUT) {
         await this.waitNotification(notificationText, timeout);
-        await this.clickOnNotificationButton(notificationText, 'yes');
+        await this.driverHelper.getDriver().wait(async () => {
+            await this.clickOnNotificationButton(notificationText, 'yes');
+            if (!await this.isNotificationPresent(notificationText)) {
+                return true;
+            }
+        }, timeout);
     }
 
     async waitNotificationAndOpenLink(notificationText: string, timeout: number = TestConstants.TS_SELENIUM_DEFAULT_TIMEOUT) {

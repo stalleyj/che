@@ -108,7 +108,7 @@ suite('Validation of workspace start, build and run', async () => {
     });
 });
 
-suite('Language server validation', async () => {
+suite.skip('Language server validation', async () => {
     test('Java LS initialization', async () => {
         await projectTree.expandPathAndOpenFile(pathToJavaFolder, javaFileName);
         await editor.selectTab(javaFileName);
