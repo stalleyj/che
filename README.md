@@ -13,34 +13,48 @@ https://www.eclipse.org/che/. Next-generation container development platform, de
 ### Getting Started
 You can run Che wherever Kubernetes runs - in the public cloud, a private cloud, or install it locally. The [step by step guide](https://eclipse.org/che/getting-started/) will get you going along with [our docs](https://www.eclipse.org/che/docs/).
 
-The `che` repository is where we do development and there are many ways you can participate, for example:
-
-- [Submit bugs and feature requests](https://github.com/eclipse/che/issues) and help us verify them
-- Review [source code changes](https://github.com/eclipse/che/pulls)
-- [Improve docs](https://github.com/codenvy/che-docs)
 
 ### Customizing
-There are many ways to customize Che out-of-the-box including [stacks, templates, commands, IDE extensions, server-side extensions plugins, assemblies, RESTful APIs, and editors](https://github.com/eclipse/che/blob/master/CUSTOMIZING.md). 
+Customizing Che could be done in several ways:
+
+1. **Customize the dashboard for your team to start coding on your projects.**
+
+   Developers would access to the dashboard with your own devfiles to create on demand workspaces. Each devfile could have a deep level of customization:
+    - Import any git projects
+    - Use plugins that you have coded or the ones available from the Che plugin registry or VSCode market place or your own hosted plugin registry.
+    - Include your build time or runtime containers, your kube native applications.
+    - Make available customized commands to build and run your projects.
+2. **Customize your own Che-theia editor with your own set of build in plugins and make it the default editor of your Che deployment.**
+3. **Customize and run your own editor instead of Che-Theia.**
+
 
 ### Contributing
+New contributors, the labels [good first issue](https://github.com/eclipse/che/labels/good%20first%20issue)
+and [help wanted](https://github.com/eclipse/che/labels/help%20wanted) are for issues and pull request that new contributors can start with. They will appear in the https://github.com/eclipse/che/contribute page.
+
 If you are interested in fixing issues and contributing directly to the code base, please see [How to Contribute](https://github.com/eclipse/che/wiki/How-To-Contribute). It covers:
 - [Submitting bugs](https://github.com/eclipse/che/wiki/Submitting-Bugs-and-Suggestions)
 - [Development workflow](https://github.com/eclipse/che/wiki/Development-Workflow)
 - [Coding guidelines](https://github.com/eclipse/che/wiki/Coding-Guidelines)
-- [Contributor license agreement](https://github.com/eclipse/che/wiki/Contributor-License-Agreement)
+- [Contributor license agreement](https://github.com/eclipse/che/wiki/Eclipse-Contributor-Agreement)
+
+The `che` repository is where we do development and there are many ways you can participate, for example:
+
+- [Submit bugs and feature requests](https://github.com/eclipse/che/issues) and help us verify them
+- Review [source code changes](https://github.com/eclipse/che/pulls)
+- [Improve docs](https://github.com/eclipse/che-docs)
+
 
 ### Ecosystem
-The next generation of Eclipse Che is going to be built from multiple components and plugins (learn more in [the roadmap](https://github.com/eclipse/che/wiki/Roadmap) on the wiki). This list provides links to those components and plugins.
+The next generation of Eclipse Che is going to be built from multiple components and plugins (learn more in [the roadmap](https://github.com/eclipse/che/wiki/Roadmap) on the wiki). This list provides links to those components and technologies underneath Che.
 
 | Project        | Description  |
 | ----------- |-----|
-| [Theia-IDE](https://github.com/theia-ide/theia) | Theia IDE integrated in Che.  |
-| [GitHub Plugin](https://github.com/eclipse/che-theia-github-plugin) | GitHub VCS support.  |
-| [Java Plugin](https://github.com/eclipse/che-theia-java-plugin) | Java language support. |
-| [SSH Plugin](https://github.com/eclipse/che-theia-ssh-plugin) | SSH public/private key pairs management. |
-| [Terminal Plugin](https://github.com/eclipse/che-theia-terminal-plugin) | Terminal plugin. |
-| [Machines Plugin](https://github.com/eclipse/che-theia-machines-plugin)| Workspace's containers controller plugin. |
-| [Hosted plugin manager](https://github.com/eclipse/che-theia-hosted-plugin-manager-extension)| IDE hosting handler for url changing and port forwarding. |
+| [Che-Theia](https://github.com/eclipse/che-theia) | Theia IDE integrated in Che.  |
+| [chectl](https://github.com/che-incubator/chectl) | The CLI to install Che, create and start workspaces and devfiles |
+| [Devfile](https://redhat-developer.github.io/devfile/) | The way to do DWaC (Developer Workspace as Code) |
+| [Kubernetes]() | Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications. |
+
 
 ### Feedback
 * **Support:** You can ask questions, report bugs, and request features using [GitHub issues](https://github.com/eclipse/che/issues).
