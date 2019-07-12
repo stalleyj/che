@@ -16,7 +16,6 @@ import {EnvironmentManager} from '../../../components/api/environment/environmen
 import {IEnvironmentManagerMachine} from '../../../components/api/environment/environment-manager-machine';
 import {CreateWorkspaceSvc} from './create-workspace.service';
 import {NamespaceSelectorSvc} from './namespace-selector/namespace-selector.service';
-import {StackSelectorSvc} from './stack-selector/stack-selector.service';
 import {RandomSvc} from '../../../components/utils/random.service';
 import {CheNotification} from '../../../components/notification/che-notification.factory';
 import {
