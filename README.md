@@ -57,7 +57,7 @@ The next generation of Eclipse Che is going to be built from multiple components
 | [Kubernetes]() | Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications. |
 
 #### Languages Support
-Languages support is covered thanks to the Language Server Protocol but Che is going beyond. Che-plugin are a combination of VSCode extension and a dedicated container image with all the system dependencies that an extension would require to work.
+Languages support is covered thanks to the Language Server Protocol but Che is going beyond that. Che-plugins are a combination of VSCode extension and a dedicated container image with all the system dependencies that an extension would require to work.
 Thus, a Che Java plugin is actually the VSCode Java extension + the container image with the right JDK, Maven and so on.
 Checkout our [plugin registry](https://github.com/eclipse/che-plugin-registry/tree/master/v3/plugins/) for Language plugins ... and not only!
 
